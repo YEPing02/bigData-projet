@@ -24,16 +24,10 @@ import twitter4j.conf.ConfigurationBuilder;
 import twittercassandra.ConvertirCQL;
 
 public class ConnxionT {
-	// ping
-//	static String ConsumerKey = "hgC7hqv9W41uhFPPz1UXrt8IH";
-//	static String ConsumerSecret = "m7U2hLR5nFZnnMK2SbyNgvOwYz9ANHHvdgaELvwhCdxDeLApDq";
-//	static String AccessToken = "961215723765948416-5I1vJ9aJ2gQWeHlEKWXdioyLUP7RDLw";
-//	static String AccessTokenSecret = "kHJzMdSTgT21Ltznq1DkDq8WGJCJifimHzlLd3Ny0YCCb";
-////
-	static String ConsumerKey = "L44OYh4Rhko29WqgHT2W0ZKbx";
-	static String ConsumerSecret = "RUbCgIlBLBg0WVqsauPuAMeFTnn2okc2AHPDKVaiUnd3BEqP8K";
-	static String AccessToken = "1226840516848967681-sZjSw0lquYIvCmJU94TTIg3B70zEAI";
-	static String AccessTokenSecret = "t0R2aPXn7AhDWNQDQnxILU7rYmbZ31pCBAqasozOIHtNa";
+	static String ConsumerKey = Your ConsumerKey;
+	static String ConsumerSecret = Your ConsumerSecret;
+	static String AccessToken = Your AccessToken;
+	static String AccessTokenSecret = Your AccessTokenSecret;
 
 	public static Configuration Tconnexion() {
 		ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
