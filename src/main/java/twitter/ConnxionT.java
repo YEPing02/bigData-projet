@@ -24,10 +24,10 @@ import twitter4j.conf.ConfigurationBuilder;
 import twittercassandra.ConvertirCQL;
 
 public class ConnxionT {
-	static String ConsumerKey = Your ConsumerKey;
-	static String ConsumerSecret = Your ConsumerSecret;
-	static String AccessToken = Your AccessToken;
-	static String AccessTokenSecret = Your AccessTokenSecret;
+	static String ConsumerKey = "Your ConsumerKey";
+	static String ConsumerSecret = "Your ConsumerSecret";
+	static String AccessToken = "Your AccessToken";
+	static String AccessTokenSecret = "Your AccessTokenSecret";
 
 	public static Configuration Tconnexion() {
 		ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
